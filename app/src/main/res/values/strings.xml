@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TP1_Android</string>
+    <string name="divide_operator">/</string>
+    <string name="add_operator">+</string>
+    <string name="subtract_operator">-</string>
+    <string name="multiply_operator">*</string>
+</resources>
+

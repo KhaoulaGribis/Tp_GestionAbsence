@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginBottom="35dp">
+
+        <TextView
+            android:id="@+id/studentNameTextView"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:text="Nom de l'étudiant"
+            android:textColor="#000000"
+            android:layout_marginEnd="16dp" />
+
+        <TextView
+            android:id="@+id/studentEtatTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="État : Présent"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+        <ImageView
+            android:id="@+id/studentImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/etudiant" />
+
+        <Button
+            android:id="@+id/changeImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Changer l'image" />
+    </LinearLayout>
+</LinearLayout>
